@@ -1,0 +1,29 @@
+# Для работы Telegram-бота
+python-telegram-bot>=21.0
+
+# Для работы с векторными базами данных и эмбеддингами
+chromadb>=0.5.0
+sentence-transformers>=2.2.0
+
+# LangChain и его компоненты
+langchain>=0.2.0
+langchain-chroma>=0.1.0
+langchain-huggingface>=0.0.1
+
+# Для работы с переменными окружения (.env)
+python-dotenv>=1.0.0
+
+# Для запуска локальной LLM через llama.cpp
+llama-cpp-python>=0.2.0
+
+# Для парсинга веб-страниц
+selenium>=4.10.0
+webdriver-manager>=4.0.0
+
+# Для работы с PDF (если используется)
+# PyPDF2>=3.0.0
+# или
+# pymupdf>=1.23.0 # aka fitz
+
+# (Опционально) Для лучшей обработки путей и совместимости
+# pathlib2>=2.3.0
